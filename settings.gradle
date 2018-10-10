@@ -1,0 +1,10 @@
+rootProject.name = 'springcloud-coordinating-services-sandpit'
+
+include 'eurekaserver-microservice'
+include 'eureka-fastpass-service'
+include 'eureka-tollrate-service'
+include 'eureka-tollrate-billboard'
+include 'eureka-fastpass-console'
+
+
+
