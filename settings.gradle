@@ -5,6 +5,7 @@ include 'eureka-fastpass-service'
 include 'eureka-tollrate-service'
 include 'eureka-tollrate-billboard'
 include 'eureka-fastpass-console'
+include 'hystrix-dashboard'
 
 
 

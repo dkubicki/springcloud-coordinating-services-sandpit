@@ -1,0 +1,17 @@
+server:
+  port: 8086
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["*"]
+
+eureka:
+  client:
+    register-with-eureka: false
+
+turbine:
+  app-config: "eureka-tollrate-billboard,eureka-fastpass-console"
+  aggregator:
+    cluster-config: ["EUREKA-TOLLRATE-BILLBOARD,EUREKA-FASTPASS-CONSOLE"]
