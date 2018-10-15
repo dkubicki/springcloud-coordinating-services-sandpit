@@ -12,4 +12,11 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 
+eureka-fastpass-service:
+  ribbon:
+    eureka:
+      enabled: true
+#    listOfServers: http://localhost:37793,http://localhost:41339
+
+
 

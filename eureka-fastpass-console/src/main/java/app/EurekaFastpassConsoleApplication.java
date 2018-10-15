@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 public class EurekaFastpassConsoleApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(EurekaFastpassConsoleApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(EurekaFastpassConsoleApplication.class, args);
+    }
 }
