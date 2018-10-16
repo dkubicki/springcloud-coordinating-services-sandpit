@@ -6,6 +6,7 @@ include 'eureka-tollrate-service'
 include 'eureka-tollrate-billboard'
 include 'eureka-fastpass-console'
 include 'hystrix-dashboard'
+include 'zuul-apiproxy'
 
 
 

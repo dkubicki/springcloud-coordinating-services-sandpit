@@ -1,0 +1,23 @@
+server:
+  port: 8087
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["*"]
+
+spring:
+  application:
+    name: toll-api-proxy
+
+zuul:
+  prefix: /api
+  routes:
+    trproxy:
+      url: http://localhost:8085
+#     path: /tollproxy/**
+#  ignored-services:
+
+
+
