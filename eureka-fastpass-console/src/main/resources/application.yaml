@@ -18,6 +18,22 @@ eureka-fastpass-service:
       enabled: true
 #    listOfServers: http://localhost:37793,http://localhost:41339
 
+spring:
+  rabbitmq:
+    port: 5672
+    password: guest
+    username: guest
+    host: 127.0.0.1
+  cloud:
+    stream:
+      bindings:
+        fastpasstollchannel:
+          destination: fastpasstoll
+          content-type: application/json
+          producer:
+            partitionKeyExpression: payload.stationid
+            partitionCount: 3
+
 
 
 
