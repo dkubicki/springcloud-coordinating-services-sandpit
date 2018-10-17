@@ -8,6 +8,7 @@ include 'eureka-fastpass-console'
 include 'hystrix-dashboard'
 include 'zuul-apiproxy'
 include 'stream-tollintake'
+include 'dataflow-scoring-stream-app'
 
 
 
